@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: pVKZmiDvb7E8nZW+BU8/S62pc6ELnm1WWAZEQ0NFHo8AU5HLfKcVOGKRbnFGIBgQrWTPsTdzzOMpXeDOeFdtZYCuVlvpgO3/m0veVDeJrUtbWk3jLStQMfjn83AJt60v3rRqaDsOJAZfarSGMa4NZZ++TSEDI8UObqBhLAFANYaG9XSUA717+Pc3STHP7QyoEwabC1/V/feQ24fKLkIXtKxB4Pq7PJN/iI30WVy9C5giT1UNacfqAsWv3C2Yp6BMNwZ8nBA0Dc3hK60YtVYAtYZa5Hk9I4Ir/Aat9zqxt56svWjVQMnar040I/WLVQFps520biD1TmOEAzs5Bcm24/GJZblpQnAw8hIWNMtd+v1yj1cTIvp79V7NqPsDJfrC6p7Y8bzYO6p/tSKrg6TJ4LHuTQFBRRv5aGjPPjZDZZOpYAlcf3WdRk420bu1dr0+IY1Mbq/zndfOHqac397qlzDw7kW9eIRuOppY413yOQa6hxj2e+VMUtSBF+ZEL0T1G0no1/UmyJGGr0gMGfZq7Y1XcAyryt8zs98A5EdD4fxGWQxBv4sHKUEMcOOais6+48cfd0c3wnoFwUkS2TMknvfufKNbQHLWz3gqu0TQODtTDNU5Qdl61AvnvH6DrbT1gCvh2ccHgXQwkmqN6eHJRyCMH/YqM2gHrWYvhYJCxWw=
+  app: obscure-taiga-70657
+  on:
+    repo: martinseanhunt/blog-app-mongoose-challenge-solution
